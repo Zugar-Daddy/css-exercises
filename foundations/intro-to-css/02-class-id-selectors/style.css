@@ -1,1 +1,24 @@
 /* Add CSS Styling */
+.odd {
+    background-color: rgb(233, 174, 202);
+    font-family: Verdana, "Deja Vu Sans", sans-serif;
+    font-size: 18px;
+}
+
+/* Change name to something more descriptive like - "Adjust Font Size" */
+.bigger {
+    font-size: 24px;
+}
+
+#even {
+    font-size: 36px;
+    color: blue;
+}
+
+#bold-green{
+    /* This is the same Attribute, U can just add .bigger as class to it */
+    font-size: 24px;
+    /* ................................................................. */
+    font-weight: bold;
+    background-color: greenyellow;
+}

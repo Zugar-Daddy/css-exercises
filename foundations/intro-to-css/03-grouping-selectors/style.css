@@ -1,1 +1,19 @@
 /* Add CSS Styling */
+
+/* MISTAKE */
+.text-attr{
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+}
+/* You don't need a separate class to tell that */
+/* Simply .first, .second{} will give common attributes */
+#first{
+    background-color: black;
+    color: white;
+}
+#second{
+    background-color: yellow;
+    color: black;
+}
+
+
